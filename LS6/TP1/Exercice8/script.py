@@ -11,4 +11,3 @@ if __name__ == "__main__":
     while True:
         print(convert(now()))
         time.sleep(5)
-

@@ -6,26 +6,11 @@
 import os
 import sys
 
-
 def testset(l):
-    s = set()
-    n = len(l)
-    
-    for e in l:
-        s.add(e)
-    for e in l:
-        
-        print(e, " ", danstable(e, n, s))
+     return None
 
 def testhachage(n, l):
-    t = inittable(n)
-
-    for e in l:
-        ajoutertable(e, n, t)
-        print("ICI 2", t)
-    
-    for e in l:
-        print(e, " ", danstable(e, n, t))
+     return None
 
 def danstable(x, n, t):
     if len(t) == n:
@@ -35,16 +20,7 @@ def danstable(x, n, t):
     return False
 
 def ajoutertable(x, n, t):
-    if danstable(x, n, t) is False:
-        if t.count(None) > 0:
-            i = t.index(None)
-            print("ICi", t, t[:i], t[i + 1:])
-            t = t[:i] + t[i + 1:]
-            print(t, x)
-            t.insert(i, x)
-            print(t)
-        else:
-            t.append(x)
+    return None
 
 
 def inittable(n):
@@ -55,12 +31,8 @@ def inittable(n):
         i += 1
     return t
 
-
-
 def main():
-    l = list()
-    TEST(1, l)
-    print(l)
+    print("TODO")
 
 if __name__ == "__main__":
     main()

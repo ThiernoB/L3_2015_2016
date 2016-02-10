@@ -1,0 +1,16 @@
+I:je
+am:suis
+me:moi
+idiot:idiot
+nice:gentil
+student:étudiant
+professor:professeur
+president:président
+python:python
+student:élève
+pupil:élève
+idiot:stupide
+stupid:stupide
+a:un
+a:une
+of:de
